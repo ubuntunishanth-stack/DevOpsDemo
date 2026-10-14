@@ -11,7 +11,7 @@ if (app.Environment.IsDevelopment())
 
 app.MapGet("/", () =>
 {
-    return "DevOpsDemo API is running successfully!";
+    return "DevOpsDemo API is running successfully!!";
 });
 
 app.MapGet("/hello/{name}", (string name) =>
